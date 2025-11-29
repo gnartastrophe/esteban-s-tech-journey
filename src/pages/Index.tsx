@@ -25,9 +25,7 @@ const Index = () => {
                 Computer Science Engineering Student
               </p>
               <p className="text-lg opacity-80 mb-8 font-body leading-relaxed max-w-lg">
-                I am passionate about building innovative software solutions and exploring the 
-                frontiers of technology. Currently pursuing my degree at Hillsborough Community 
-                College, I am preparing for a career in software engineering and technology.
+                I am passionate about building software  and exploring the ever-evolving field of technology. I am currently pursuing my degree at Hillsborough Community College, and am preparing for a career in software, specifically full-stack web development.     
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link to="/academics-hcc">
