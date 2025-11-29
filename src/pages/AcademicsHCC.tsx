@@ -54,8 +54,7 @@ const AcademicsHCC = () => {
     
                 </p>
                 <p>
-                  The A.A. degree ensures that I complete all general education requirements 
-                  while taking foundational courses in my major field of study.
+                  The A.A. degree is to make sure that I complete all gen-ed requirements while taking foundational courses for my major. 
                 </p>
               </ContentCard>
             </div>
