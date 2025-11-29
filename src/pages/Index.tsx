@@ -73,7 +73,7 @@ const Index = () => {
                   Academic Path
                 </h3>
                 <p className="text-muted-foreground font-body">
-                  Discover my current studies at HCC and my educational roadmap for the future.
+                  Discover my current studies at HCC and my map for the future.
                 </p>
               </div>
             </Link>
