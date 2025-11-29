@@ -3,10 +3,8 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, GraduationCap, Briefcase, Cpu } from "lucide-react";
 import { Link } from "react-router-dom";
 import profileImage from "@/assets/profile-placeholder.jpg";
-
 const Index = () => {
-  return (
-    <PageLayout>
+  return <PageLayout>
       {/* Hero Section */}
       <section className="hero-gradient text-primary-foreground min-h-[80vh] flex items-center relative overflow-hidden">
         {/* Yellow Accent Stripe */}
@@ -48,11 +46,7 @@ const Index = () => {
             <div className="order-1 md:order-2 flex justify-center animate-fade-in">
               <div className="relative">
                 <div className="absolute inset-0 bg-accent/20 rounded-full blur-3xl transform scale-110"></div>
-                <img
-                  src={profileImage}
-                  alt="Esteban Aguilar - Computer Science Student"
-                  className="relative w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-primary-foreground/20 shadow-2xl"
-                />
+                <img alt="Esteban Aguilar - Computer Science Student" className="relative w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-primary-foreground/20 shadow-2xl" src="/lovable-uploads/225e25de-3d32-4733-a51c-26a229a98189.jpg" />
               </div>
             </div>
           </div>
@@ -87,7 +81,9 @@ const Index = () => {
               </div>
             </Link>
             <Link to="/future-career" className="group">
-              <div className="bg-card rounded-xl p-8 border-2 border-border hover:border-accent card-shadow transition-all duration-300 group-hover:card-shadow-hover group-hover:-translate-y-1 animate-slide-up relative overflow-hidden" style={{ animationDelay: "100ms" }}>
+              <div className="bg-card rounded-xl p-8 border-2 border-border hover:border-accent card-shadow transition-all duration-300 group-hover:card-shadow-hover group-hover:-translate-y-1 animate-slide-up relative overflow-hidden" style={{
+              animationDelay: "100ms"
+            }}>
                 <div className="absolute top-0 left-0 right-0 h-1 bg-accent"></div>
                 <div className="w-14 h-14 bg-accent/20 rounded-lg flex items-center justify-center mb-6">
                   <Briefcase className="h-7 w-7 text-accent" />
@@ -101,7 +97,9 @@ const Index = () => {
               </div>
             </Link>
             <Link to="/emerging-tech" className="group">
-              <div className="bg-card rounded-xl p-8 border-2 border-border hover:border-accent card-shadow transition-all duration-300 group-hover:card-shadow-hover group-hover:-translate-y-1 animate-slide-up relative overflow-hidden" style={{ animationDelay: "200ms" }}>
+              <div className="bg-card rounded-xl p-8 border-2 border-border hover:border-accent card-shadow transition-all duration-300 group-hover:card-shadow-hover group-hover:-translate-y-1 animate-slide-up relative overflow-hidden" style={{
+              animationDelay: "200ms"
+            }}>
                 <div className="absolute top-0 left-0 right-0 h-1 bg-accent"></div>
                 <div className="w-14 h-14 bg-accent/20 rounded-lg flex items-center justify-center mb-6">
                   <Cpu className="h-7 w-7 text-accent" />
@@ -117,8 +115,6 @@ const Index = () => {
           </div>
         </div>
       </section>
-    </PageLayout>
-  );
+    </PageLayout>;
 };
-
 export default Index;
