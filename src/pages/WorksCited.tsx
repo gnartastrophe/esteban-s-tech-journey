@@ -119,14 +119,15 @@ const WorksCited = () => {
                 className="animate-slide-up"
                 style={{ animationDelay: `${catIndex * 100}ms` }}
               >
-                <h2 className="font-heading text-xl font-semibold text-primary mb-6 pb-2 border-b border-border">
+                <h2 className="font-heading text-xl font-semibold text-primary mb-6 pb-2 border-b-2 border-accent flex items-center gap-3">
+                  <span className="w-3 h-3 bg-accent rounded-full"></span>
                   {category.category}
                 </h2>
                 <div className="space-y-6">
                   {category.sources.map((source, sourceIndex) => (
                     <div
                       key={sourceIndex}
-                      className="pl-6 border-l-2 border-muted hover:border-primary transition-colors"
+                      className="pl-6 border-l-2 border-accent/40 hover:border-accent hover:bg-accent/5 transition-colors py-2 rounded-r"
                     >
                       <p className="text-foreground font-body">
                         {source.author}. "{source.title}."&nbsp;

@@ -8,8 +8,13 @@ const Index = () => {
   return (
     <PageLayout>
       {/* Hero Section */}
-      <section className="hero-gradient text-primary-foreground min-h-[80vh] flex items-center">
-        <div className="container mx-auto px-4 py-16">
+      <section className="hero-gradient text-primary-foreground min-h-[80vh] flex items-center relative overflow-hidden">
+        {/* Yellow Accent Stripe */}
+        <div className="absolute top-0 left-0 right-0 h-2 bg-accent"></div>
+        <div className="absolute bottom-0 left-0 right-0 h-1 bg-accent/50"></div>
+        <div className="absolute -right-20 top-1/4 w-40 h-96 bg-accent/20 rotate-12 blur-sm"></div>
+        <div className="absolute -left-10 bottom-1/4 w-32 h-64 bg-accent/10 -rotate-12 blur-sm"></div>
+        <div className="container mx-auto px-4 py-16 relative z-10">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1 animate-slide-up">
               <p className="text-accent font-semibold mb-4 uppercase tracking-wider text-sm drop-shadow-md">
@@ -55,7 +60,9 @@ const Index = () => {
       </section>
 
       {/* Quick Links Section */}
-      <section className="py-20 bg-background">
+      <section className="py-20 bg-background relative">
+        {/* Yellow accent bar */}
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-24 h-1 bg-accent rounded-full"></div>
         <div className="container mx-auto px-4">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-center mb-4 text-foreground">
             Explore My Portfolio
@@ -66,9 +73,10 @@ const Index = () => {
           </p>
           <div className="grid md:grid-cols-3 gap-8">
             <Link to="/academics-hcc" className="group">
-              <div className="bg-card rounded-xl p-8 border border-border card-shadow transition-all duration-300 group-hover:card-shadow-hover group-hover:-translate-y-1 animate-slide-up">
-                <div className="w-14 h-14 bg-secondary rounded-lg flex items-center justify-center mb-6">
-                  <GraduationCap className="h-7 w-7 text-primary" />
+              <div className="bg-card rounded-xl p-8 border-2 border-border hover:border-accent card-shadow transition-all duration-300 group-hover:card-shadow-hover group-hover:-translate-y-1 animate-slide-up relative overflow-hidden">
+                <div className="absolute top-0 left-0 right-0 h-1 bg-accent"></div>
+                <div className="w-14 h-14 bg-accent/20 rounded-lg flex items-center justify-center mb-6">
+                  <GraduationCap className="h-7 w-7 text-accent" />
                 </div>
                 <h3 className="font-heading text-xl font-semibold text-foreground mb-3">
                   Academic Path
@@ -79,9 +87,10 @@ const Index = () => {
               </div>
             </Link>
             <Link to="/future-career" className="group">
-              <div className="bg-card rounded-xl p-8 border border-border card-shadow transition-all duration-300 group-hover:card-shadow-hover group-hover:-translate-y-1 animate-slide-up" style={{ animationDelay: "100ms" }}>
-                <div className="w-14 h-14 bg-secondary rounded-lg flex items-center justify-center mb-6">
-                  <Briefcase className="h-7 w-7 text-primary" />
+              <div className="bg-card rounded-xl p-8 border-2 border-border hover:border-accent card-shadow transition-all duration-300 group-hover:card-shadow-hover group-hover:-translate-y-1 animate-slide-up relative overflow-hidden" style={{ animationDelay: "100ms" }}>
+                <div className="absolute top-0 left-0 right-0 h-1 bg-accent"></div>
+                <div className="w-14 h-14 bg-accent/20 rounded-lg flex items-center justify-center mb-6">
+                  <Briefcase className="h-7 w-7 text-accent" />
                 </div>
                 <h3 className="font-heading text-xl font-semibold text-foreground mb-3">
                   Career Goals
@@ -92,9 +101,10 @@ const Index = () => {
               </div>
             </Link>
             <Link to="/emerging-tech" className="group">
-              <div className="bg-card rounded-xl p-8 border border-border card-shadow transition-all duration-300 group-hover:card-shadow-hover group-hover:-translate-y-1 animate-slide-up" style={{ animationDelay: "200ms" }}>
-                <div className="w-14 h-14 bg-secondary rounded-lg flex items-center justify-center mb-6">
-                  <Cpu className="h-7 w-7 text-primary" />
+              <div className="bg-card rounded-xl p-8 border-2 border-border hover:border-accent card-shadow transition-all duration-300 group-hover:card-shadow-hover group-hover:-translate-y-1 animate-slide-up relative overflow-hidden" style={{ animationDelay: "200ms" }}>
+                <div className="absolute top-0 left-0 right-0 h-1 bg-accent"></div>
+                <div className="w-14 h-14 bg-accent/20 rounded-lg flex items-center justify-center mb-6">
+                  <Cpu className="h-7 w-7 text-accent" />
                 </div>
                 <h3 className="font-heading text-xl font-semibold text-foreground mb-3">
                   Emerging Tech
