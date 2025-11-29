@@ -50,10 +50,8 @@ const AcademicsHCC = () => {
                   Associate in Arts (A.A.) Degree
                 </p>
                 <p className="mb-4">
-                  I am pursuing an Associate in Arts degree with a focus on Computer Science 
-                  at Hillsborough Community College. This program provides a strong foundation 
-                  in programming, mathematics, and computer systems that prepares students for 
-                  transfer to a four-year university.
+                  I am pursuing an Associate in Arts degree with a focus on Computer Science at Hillsborough Community College. The program I chose provides a strong foundation in coding, math, and computer systems that prepare students like me to transfer to a 4 year college.
+    
                 </p>
                 <p>
                   The A.A. degree ensures that I complete all general education requirements 
