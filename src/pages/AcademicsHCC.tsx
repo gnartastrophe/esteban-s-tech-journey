@@ -74,9 +74,9 @@ const AcademicsHCC = () => {
                   {courses.map((course, index) => (
                     <div
                       key={course.code}
-                      className="flex items-center gap-3 p-3 bg-muted rounded-lg"
+                      className="flex items-center gap-3 p-3 bg-muted rounded-lg border-l-4 border-accent hover:bg-accent/10 transition-colors"
                     >
-                      <span className="font-mono text-sm font-semibold text-primary bg-secondary px-2 py-1 rounded">
+                      <span className="font-mono text-sm font-semibold text-primary-foreground bg-primary px-2 py-1 rounded">
                         {course.code}
                       </span>
                       <span className="text-foreground">{course.name}</span>

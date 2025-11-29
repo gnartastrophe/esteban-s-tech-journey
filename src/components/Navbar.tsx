@@ -16,7 +16,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 bg-card/95 backdrop-blur-md border-b border-border">
+    <nav className="sticky top-0 z-50 bg-card/95 backdrop-blur-md border-b-2 border-accent">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <NavLink to="/" className="font-heading text-xl font-semibold text-primary">
