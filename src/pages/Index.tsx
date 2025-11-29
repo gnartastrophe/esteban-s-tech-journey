@@ -89,7 +89,7 @@ const Index = () => {
                   Career Goals
                 </h3>
                 <p className="text-muted-foreground font-body">
-                  Learn about the career opportunities I am pursuing in the tech industry.
+                  Learn about the career opportunities I am pursuing with tech. 
                 </p>
               </div>
             </Link>
