@@ -60,8 +60,7 @@ const Index = () => {
             Explore My Portfolio
           </h2>
           <p className="text-muted-foreground text-center mb-12 max-w-2xl mx-auto font-body">
-            Navigate through my academic journey, future aspirations, and the emerging technologies 
-            that inspire my career path.
+            Navigate through my prospective academic path, future goals, and the emerging technologies that inspire my career path.
           </p>
           <div className="grid md:grid-cols-3 gap-8">
             <Link to="/academics-hcc" className="group">
