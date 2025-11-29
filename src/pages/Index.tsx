@@ -12,7 +12,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-16">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1 animate-slide-up">
-              <p className="text-accent font-medium mb-4 uppercase tracking-wider text-sm">
+              <p className="text-accent font-semibold mb-4 uppercase tracking-wider text-sm drop-shadow-md">
                 Welcome to My Portfolio
               </p>
               <h1 className="font-heading text-4xl md:text-6xl font-bold mb-6 leading-tight">
@@ -28,7 +28,7 @@ const Index = () => {
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link to="/academics-hcc">
-                  <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-body font-semibold">
+                  <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/80 font-body font-semibold shadow-lg">
                     Explore My Journey
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
