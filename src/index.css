@@ -175,7 +175,7 @@
   }
 }
 
-/* Hide Lovable badge */
+/* Hide external badges */
 #lovable-badge {
   display: none !important;
 }
