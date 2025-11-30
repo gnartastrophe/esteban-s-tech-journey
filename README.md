@@ -28,9 +28,14 @@ cd <YOUR_PROJECT_NAME>
 # Install dependencies
 npm i
 
+# Copy environment variables (optional - only needed if using backend features)
+cp .env.example .env
+
 # Start the development server
 npm run dev
 ```
+
+The project will run on `http://localhost:8080`
 
 ## Deployment
 
