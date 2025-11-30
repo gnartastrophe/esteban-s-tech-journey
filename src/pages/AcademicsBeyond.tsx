@@ -8,7 +8,7 @@ const universities = [
     name: "University of South Florida (USF)",
     program: "Bachelor of Science in Computer Science",
     description:
-      "USF's Computer Science program is accredited by ABET and offers a comprehensive curriculum covering algorithms, software engineering, artificial intelligence, and cybersecurity. The program emphasizes hands-on experience through research opportunities and industry partnerships in the Tampa Bay area's growing tech sector.",
+      "USF's Computer Science program offers a comprehensive curriculum covering algorithms, software engineering, artificial intelligence, and cybersecurity. The program offers hands-on experience through research opportunities and partnerships in the Tampa Bay area's growing tech space.",
     highlights: [
       "ABET-accredited program",
       "Strong industry connections",
@@ -20,7 +20,7 @@ const universities = [
     name: "University of Central Florida (UCF)",
     program: "Bachelor of Science in Computer Science",
     description:
-      "UCF's Computer Science program is one of the largest in the nation and is recognized for its excellence in areas such as game development, simulation, and cybersecurity. Located near Orlando's technology corridor, students have access to internships with major tech companies and theme parks.",
+      "UCF's Computer Science program is one of the largest in Florida and is recognized for excelling in areas like game development, simulation, and cybersecurity. Located in Orlando, students have access to internships with tech companies and theme parks.",
     highlights: [
       "Top-ranked game development program",
       "State-of-the-art facilities",
@@ -32,12 +32,8 @@ const universities = [
     name: "Florida State University (FSU)",
     program: "Bachelor of Science in Computer Science",
     description:
-      "FSU's Department of Computer Science offers a rigorous program that combines theoretical foundations with practical applications. Students can specialize in areas like machine learning, data science, and software engineering while benefiting from the university's strong research programs.",
-    highlights: [
-      "Strong theoretical foundation",
-      "Research-intensive environment",
-      "Collaborative learning community",
-    ],
+      "FSU's Department of Computer Science offers an intensive program that combines theoretical foundations and practical applications. Students can practice in areas like machine learning, data science, and software engineering while benefiting from the university's strong research programs.",
+    highlights: ["Strong theoretical foundation", "Research-intensive environment", "Collaborative learning community"],
     link: "https://www.cs.fsu.edu/",
   },
 ];
@@ -53,19 +49,14 @@ const AcademicsBeyond = () => {
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <p className="text-lg text-muted-foreground max-w-3xl mb-12 font-body animate-slide-up">
-            After completing my Associate in Arts degree at Hillsborough Community College, 
-            I plan to transfer to a four-year university to earn my Bachelor's degree in 
-            Computer Science. Below are three programs I am considering for my continued education.
+            After completing my Associate in Arts degree at Hillsborough Community College, I plan to transfer to USF to
+            earn my Bachelor's degree in Computer Science Engineering. Below are three programs I am considering for my
+            continued education.
           </p>
 
           <div className="grid gap-8">
             {universities.map((uni, index) => (
-              <ContentCard
-                key={uni.name}
-                title={uni.name}
-                delay={index * 100}
-                className="relative"
-              >
+              <ContentCard key={uni.name} title={uni.name} delay={index * 100} className="relative">
                 <div className="grid lg:grid-cols-3 gap-6">
                   <div className="lg:col-span-2">
                     <p className="text-lg font-semibold text-primary mb-3">{uni.program}</p>
