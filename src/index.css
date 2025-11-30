@@ -174,3 +174,8 @@
     transform: translateX(0);
   }
 }
+
+/* Hide Lovable badge */
+#lovable-badge {
+  display: none !important;
+}
