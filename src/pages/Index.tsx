@@ -2,7 +2,6 @@ import PageLayout from "@/components/PageLayout";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, GraduationCap, Briefcase, Cpu } from "lucide-react";
 import { Link } from "react-router-dom";
-import profileImage from "@/assets/profile-placeholder.jpg";
 const Index = () => {
   return <PageLayout>
       {/* Hero Section */}
@@ -35,7 +34,7 @@ const Index = () => {
                   </Button>
                 </Link>
                 <Link to="/future-career">
-                  <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-body">
+                  <Button size="lg" variant="outline" className="bg-transparent border-primary-foreground/60 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground font-body">
                     View Career Goals
                   </Button>
                 </Link>
@@ -44,7 +43,7 @@ const Index = () => {
             <div className="order-1 md:order-2 flex justify-center animate-fade-in">
               <div className="relative">
                 <div className="absolute inset-0 bg-accent/20 rounded-full blur-3xl transform scale-110"></div>
-                <img alt="Esteban Aguilar - Computer Science Student" className="relative w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-primary-foreground/20 shadow-2xl" src="/lovable-uploads/225e25de-3d32-4733-a51c-26a229a98189.jpg" />
+                <img alt="Esteban Aguilar - Computer Science Student" className="relative w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-primary-foreground/20 shadow-2xl" src="/images/225e25de-3d32-4733-a51c-26a229a98189.jpg" />
               </div>
             </div>
           </div>
