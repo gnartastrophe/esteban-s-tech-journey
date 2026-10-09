@@ -10,6 +10,7 @@ const navLinks = [
   { to: "/future-career", label: "Future Career" },
   { to: "/emerging-tech", label: "Emerging Tech" },
   { to: "/works-cited", label: "Works Cited" },
+  { to: "/game", label: "Final Floor" },
 ];
 
 const Navbar = () => {

@@ -14,6 +14,10 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
+## Final Floor (game project)
+
+The site also hosts **Final Floor: A Crawl Fantasy** at `/game`: a 16-bit style JRPG/ARPG where a seed procedurally generates the story, dungeon floors, monsters and music. It's written in TypeScript on an HTML canvas with no external assets. See [`src/game/README.md`](src/game/README.md) for how it plays and how the code is organized.
+
 ## Development
 
 To run this project locally:
